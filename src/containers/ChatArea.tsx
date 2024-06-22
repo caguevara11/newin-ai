@@ -1,10 +1,10 @@
 import { useState } from "react";
-import { Space, Input, message } from "antd";
+import { Space, Input } from "antd";
 import { SendOutlined } from "@ant-design/icons";
 import { Select } from "../components/Select";
 import { ChatMessage } from "../components/ChatMessage";
 import { Button } from "../components/Button";
-import { Chat, ChatMessage as ChatMessageType } from "../types";
+import { Chat } from "../types";
 
 interface ChatAreaProps {
   currentChat: Chat;
